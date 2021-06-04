@@ -5,7 +5,7 @@ phases:
    commands:
        - |
          echo "pre_build"
-         echo $KEY
+         echo "KEY environment property value: $KEY"
   build:
     commands:
         - echo "build"
