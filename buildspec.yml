@@ -4,6 +4,7 @@ phases:
   pre_build:
    commands:
        - echo "pre_build"
+         echo $KEY
   build:
     commands:
         - echo "build"
